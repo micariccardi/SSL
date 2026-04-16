@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
-    printf("Hello, World!\n");
-    printf("Compilado con el estándar C: %ld\n", __STDC_VERSION__);
+int main(int argc, char const *argv[]) {
+    printf("Hello, World!");
     return 0;
 }
